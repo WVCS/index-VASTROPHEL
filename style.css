@@ -1,3 +1,11 @@
-body {
+body{
+  background-color: orange;
+}
 
+h4 {
+  color: brown;
+}
+
+table, tr, th, td {
+  border: dotted brown 2px;
 }
