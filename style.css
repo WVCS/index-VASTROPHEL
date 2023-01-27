@@ -1,3 +1,7 @@
+head{
+  background-color: white;
+}
+
 body{
   background-color: orange;
 }
@@ -8,4 +12,29 @@ h4 {
 
 table, tr, th, td {
   border: dotted brown 2px;
+}
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: antiquewhite;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.navClass {
+  display: inline;
+  float: right;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  font-size: 120%;
+}
+
+.navClass:hover {
+  background-color: gold;
 }
